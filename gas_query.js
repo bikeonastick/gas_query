@@ -8,7 +8,7 @@
 //
 //function testLib_(){
 //  // query to run
-//  var myQuery = "=QUERY(Sheet1!A1:O,\"SELECT B, F, C, L, M, N, K WHERE D = 'Q2-2017'\")";
+//  var myQuery = "=QUERY(Sheet1!A1:O,\"SELECT A, B, C, WHERE C > '20'\")";
 //  // object
 //  
 //  var filledObj = runQuery(myQuery);
@@ -16,7 +16,7 @@
 //   
 //  //Logger.log(filledObj.allData);
 //  Logger.log(filledObj.getHeadings());
-//  Logger.log("obj:" + filledObj.getRowObj(0).get('ready score'));
+//  Logger.log("obj:" + filledObj.getRowObj(0).get('TwitterHandle'));
 //  Logger.log("number of rows=" + filledObj.numRows());
 //  Logger.log("number of cols=" + filledObj.numColumns());
 //}
