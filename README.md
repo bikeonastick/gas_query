@@ -27,6 +27,12 @@ Currently, there is no real standard way to share libraries in GAS. You will
 need to check out this repo, copy the code from gas_query.js into your project
 and reference the library, see below. 
 
+Or you can just copy the code into your project and use it. 
+
+## Example
+
+I have a working example in this [spreadsheet](https://docs.google.com/spreadsheets/d/1VHYCetyFLiOfOB9NALdY_OeebYuAJXlLEc7PtiFXJO4/edit?usp=sharing), although, I am unsure how functional it will be for you as I've made it read only. 
+
 ## Contributing
 
 1. Fork the repo

@@ -8,15 +8,15 @@
 //
 //function testLib_(){
 //  // query to run
-//  var myQuery = "=QUERY(Sheet1!A1:O,\"SELECT A, B, C, WHERE C > '20'\")";
-//  // object
-//  
+//  // link to a sheet that works with this query
+//  // https://docs.google.com/spreadsheets/d/1VHYCetyFLiOfOB9NALdY_OeebYuAJXlLEc7PtiFXJO4/edit?usp=sharing
+//  var myQuery = '=QUERY(demo_data!A1:C7,"SELECT B,C WHERE B < 1000",1)';
+//  //object 
 //  var filledObj = runQuery(myQuery);
-//  Logger.log("data");
-//   
-//  //Logger.log(filledObj.allData);
+//  var message = "User:" + filledObj.getRowObj(0).get('TwitterHandle') + " has less than 1000 followers."
+//  var ui = SpreadsheetApp.getUi().alert(message); 
+//  Logger.log(filledObj.allData);
 //  Logger.log(filledObj.getHeadings());
-//  Logger.log("obj:" + filledObj.getRowObj(0).get('TwitterHandle'));
 //  Logger.log("number of rows=" + filledObj.numRows());
 //  Logger.log("number of cols=" + filledObj.numColumns());
 //}
